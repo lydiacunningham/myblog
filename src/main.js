@@ -8,12 +8,10 @@ Vue.use(Router)
 
 const NotFound = { template: '<p>Page not found</p>' }
 const Home = { template: App }
-const About = { template: App }
 const Blog = { template: '<p>blog page</p>'}
 
 const routes = {
   '/': Home,
-  '/about': About,
   '/blog': Blog
 }
 

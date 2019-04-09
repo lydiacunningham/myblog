@@ -1,17 +1,17 @@
 <template>
   <div id="app">
     <img class="ui centered small circular image" src="./assets/me.png">
-    <About msg="Software Engineer at Red Hat"/>
+    <Home msg="Software Engineer at Red Hat"/>
   </div>
 </template>
 
 <script>
-import About from './components/About.vue'
+import Home from './components/Home.vue'
 
 export default {
   name: 'app',
   components: {
-    About
+    Home
   }
 }
 </script>

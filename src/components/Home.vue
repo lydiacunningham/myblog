@@ -1,5 +1,5 @@
 <template>
-  <div class="About">
+  <div class="Home">
     <h1>{{ msg }}</h1>
     
     <div class="ui grid">
@@ -14,7 +14,7 @@
 
     <h3>More Info</h3>
     <ul>
-      <li><a href="/about" rel="noopener">About</a></li>
+      <li><a href="https://austin-cunningham.surge.sh/" rel="noopener">About</a></li>
       <li><a href="/blog" rel="noopener">Blog</a></li>
     </ul>
 
@@ -23,7 +23,7 @@
 
 <script>
 export default {
-  name: 'About',
+  name: 'Home',
   props: {
     msg: String
   }
