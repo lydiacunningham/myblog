@@ -4,8 +4,7 @@
       <div class="seven wide column"></div>
       <div class="two wide column">
         <div class="ui compact menu">
-          <a class="item"><router-link to="/">Home</router-link> </a>
-          <a class="item"><router-link to="/blogs">Blogs</router-link></a>
+          <a class="item"><router-link to="/"> Home Page <i class="home icon"></i></router-link> </a>
         </div>
       </div>
     </div>

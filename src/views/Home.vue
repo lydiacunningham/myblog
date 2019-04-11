@@ -6,7 +6,8 @@
       <div class="six wide column">
         <img class="ui centered small circular image" src="../assets/me.png">
         <br>
-        <h1>Software Engineer Working at Red Hat</h1>
+        <h1 class="ui center aligned header">Austin Cunningham</h1>
+        <h2 class="ui center aligned header">Software Engineer Working at Red Hat</h2>
       </div>
       <div class="seven wide column"></div>
     </div>
