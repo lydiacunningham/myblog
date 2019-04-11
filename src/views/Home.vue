@@ -1,11 +1,12 @@
 <template>
   <div class="Home">
     <div class="ui grid">
-      <div class="seven wide column"></div>
-      <div class="two wide column">
-        <h1>Works at Red Hat</h1>
+      <div class="five wide column"></div>
+      
+      <div class="six wide column">
         <img class="ui centered small circular image" src="../assets/me.png">
         <br>
+        <h1>Software Engineer Working at Red Hat</h1>
       </div>
       <div class="seven wide column"></div>
     </div>
@@ -20,19 +21,26 @@
       </div>
       <div class="six wide colum"></div>
     </div>
-    <div class="sections">
-      <div v-for="(section, index) in Object.keys(entries)" :key="index" class="group">
-        <h2 class="center">{{section}}</h2>
-        <div class="section" v-for="entry in entries[section]" :key="entry.id">
-          <div class="entry">
-            <h3 @click="$router.push({name: entry.id})">
-              {{entry.title}}
-              <span class="subtitle">{{entry.date}}</span>
-            </h3>
-            <p>{{entry.description}}</p>
+    <div class="ui grid">
+      <div class="four wide column"></div>
+      <div class="eight wide column">
+        <div class="sections">
+          <div v-for="(section, index) in Object.keys(entries)" :key="index" class="group">
+            <br>
+            <h2 class="center">{{section}}</h2>
+            <div class="section" v-for="entry in entries[section]" :key="entry.id">
+              <div class="entry">
+                <h3 @click="$router.push({name: entry.id})">
+                  {{entry.title}}
+                  <span class="subtitle">{{entry.date}}</span>
+                </h3>
+                <p>{{entry.description}}</p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
+      <div class="four wide column"></div>
     </div>
   </div>
 </template>
