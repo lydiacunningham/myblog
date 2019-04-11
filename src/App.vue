@@ -1,18 +1,20 @@
 <template>
   <div id="app">
-    <img class="ui centered small circular image" src="./assets/me.png">
-    <Home msg="Software Engineer at Red Hat"/>
+    
+    <ul>
+      <li><a href="https://austin-cunningham.surge.sh/" rel="noopener">CV </a></li>
+      <li><router-link :to="{name: 'Home'}">Home </router-link></li>
+      <li><router-link to="/blog">Blog</router-link></li>
+    </ul>
+    <router-view></router-view>
   </div>
 </template>
 
 <script>
-import Home from './components/Home.vue'
+
 
 export default {
   name: 'app',
-  components: {
-    Home
-  }
 }
 </script>
 
@@ -21,8 +23,24 @@ export default {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
+  /* text-align: center; */
   color: #2c3e50;
-  margin-top: 60px;
+  /* margin-top: 60px; */
+  
+}
+h3 {
+  margin: 40px 0 0;
+}
+ul {
+  text-align: center;
+  list-style-type: none;
+  padding: 0;
+}
+li {
+  display: inline-block;
+  margin: 0 10px;
+}
+a {
+  color: #42b983;
 }
 </style>
