@@ -1,20 +1,19 @@
 <template>
   <div id="app">
-    
-    <ul>
-      <li><a href="https://austin-cunningham.surge.sh/" rel="noopener">CV </a></li>
-      <li><router-link :to="{name: 'Home'}">Home </router-link></li>
-      <li><router-link to="/blog">Blog</router-link></li>
-    </ul>
+    <bar/>
     <router-view></router-view>
   </div>
 </template>
 
 <script>
+import bar from './views/Bar.vue'
 
 
 export default {
   name: 'app',
+  components:{
+    bar
+  }
 }
 </script>
 
@@ -28,19 +27,5 @@ export default {
   /* margin-top: 60px; */
   
 }
-h3 {
-  margin: 40px 0 0;
-}
-ul {
-  text-align: center;
-  list-style-type: none;
-  padding: 0;
-}
-li {
-  display: inline-block;
-  margin: 0 10px;
-}
-a {
-  color: #42b983;
-}
+
 </style>

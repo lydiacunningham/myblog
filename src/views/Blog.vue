@@ -1,15 +1,13 @@
 <template>
   <div class="blog">
-    <themekeycloak />
+    <router-view></router-view>
   </div>
 </template>
 <script>
-import themekeycloak from '../components/themekeycloak.md'
+
 export default {
   name: 'Blog',
-  components:{
-    themekeycloak
-  }
+
 }
 </script>
 

@@ -3,7 +3,7 @@
     <div class="ui grid">
       <div class="seven wide column"></div>
       <div class="two wide column">
-        <h1>{{ msg }}</h1>
+        <h1>Works at Red Hat</h1>
         <img class="ui centered small circular image" src="../assets/me.png">
         <br>
       </div>
@@ -20,15 +20,32 @@
       </div>
       <div class="six wide colum"></div>
     </div>
+    <div class="sections">
+      <div v-for="(section, index) in Object.keys(entries)" :key="index" class="group">
+        <h2 class="center">{{section}}</h2>
+        <div class="section" v-for="entry in entries[section]" :key="entry.id">
+          <div class="entry">
+            <h3 @click="$router.push({name: entry.id})">
+              {{entry.title}}
+              <span class="subtitle">{{entry.date}}</span>
+            </h3>
+            <p>{{entry.description}}</p>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 </template>
 
 <script>
+import BLOGENTRIES from '../static/bloglist.json'
 
 export default {
   name: 'Home',
-  props: {
-    msg: String
+  computed: {
+    entries() {
+      return BLOGENTRIES
+    }
   }
 }
 </script>
