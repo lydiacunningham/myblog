@@ -1,5 +1,20 @@
 
 {
+    
+    "2018":[
+        {
+            "id": "ansiblepython",
+            "date": "Aug 11, 2018",
+            "title": "Write an Ansible module with Python",
+            "description": "Guide on how to write an Ansible module with Python"
+        },
+        {
+            "id":"another",
+            "date": "2018",
+            "title": "another",
+            "description": "another"
+        }
+    ],
     "2017":[
         {
             "id":"themekeycloak",
@@ -18,20 +33,6 @@
             "date": "Oct 13, 2017",
             "title": "Node and Openshift",
             "description":"Guide on how to deploy a Node app on Openshift"
-        }
-    ],
-    "2018":[
-        {
-            "id": "ansiblepython",
-            "date": "Aug 11, 2018",
-            "title": "Write an Ansible module with Python",
-            "description": "Guide on how to write an Ansible module with Python"
-        },
-        {
-            "id":"another",
-            "date": "2018",
-            "title": "another",
-            "description": "another"
         }
     ]
 }
