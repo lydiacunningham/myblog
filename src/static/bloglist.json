@@ -12,6 +12,12 @@
             "date": "Jun 30, 2017",
             "title": "Keycloak and Express",
             "description": "Guide on how to setup Keycloak with Express" 
+        },
+        {
+            "id":"nodeopenshift",
+            "date": "Oct 13, 2017",
+            "title": "Node and Openshift",
+            "description":"Guide on how to deploy a Node app on Openshift"
         }
     ],
     "2018":[

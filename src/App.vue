@@ -5,6 +5,8 @@
   </div>
 </template>
 
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-138297422-1"></script>
 <script>
 import bar from './views/Bar.vue'
 
@@ -15,6 +17,12 @@ export default {
     bar
   }
 }
+
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+
+gtag('config', 'UA-138297422-1');
 </script>
 
 <style>

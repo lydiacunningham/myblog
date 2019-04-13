@@ -11,6 +11,6 @@ module.exports = {
           raw: true
         })
     },
-    publicPath: process.env.NODE_ENV === 'production' ? '/myblog/dist/' : '/dist/'
+    publicPath: process.env.NODE_ENV === 'production' ? '/' : '/myblog/'
     
     }
