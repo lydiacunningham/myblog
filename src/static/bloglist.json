@@ -9,6 +9,12 @@
             "description": "Guide on how to write an Ansible module with Python"
         },
         {
+            "id": "hostingopenshift",
+            "date": "Jun 11, 2018",
+            "title": "Hosting static web sites on Openshift",
+            "description": "Guide on how to host a static site on Openshift"
+        }
+        {
             "id":"another",
             "date": "2018",
             "title": "another",
