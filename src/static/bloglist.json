@@ -15,10 +15,10 @@
             "description": "Guide on how to host a static site on Openshift"
         },
         {
-            "id":"another",
-            "date": "2018",
-            "title": "another",
-            "description": "another"
+            "id":"openshiftnodekeycloak",
+            "date": "Jun 16, 2018",
+            "title": "Openshift Node and Keycloak",
+            "description": "How guide to depoly a Node app to Openshift using Keycloak for authentication"
         }
     ],
     "2017":[
