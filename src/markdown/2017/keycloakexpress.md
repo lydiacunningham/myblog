@@ -126,30 +126,30 @@ You can then access the Keycloak server from a browser using the following url
 http://localhost:8080/auth/
 You will hit the initial password screen for Keycloak administrator .
 
-![](https://cdn-images-1.medium.com/max/1600/1*TnDXQpqicsMOT-Bowo3ynw.png)
+![](https://cdn-images-1.medium.com/max/1600/1*TnDXQpqicsMOT-Bowo3ynw.png?style=centerme)
 
 For more information on setting up Keycloak see the following [guide](https://www.keycloak.org/docs/latest/getting_started/index.html)
 
 Next you need to [setup a Realm](http://www.keycloak.org/docs/latest/getting_started/index.html#creating-a-realm-and-user) . Login in to Keycloak Admin Console and hover over top left hand corner and click on Add realm and give it a name.
 
-![](https://cdn-images-1.medium.com/max/2400/1*8QUACOFFtq3ou5QA_UmHqQ.png)
+![](https://cdn-images-1.medium.com/max/2400/1*8QUACOFFtq3ou5QA_UmHqQ.png?style=centerme)
 create a realm
 
 To use the Node.js adapter, first you must create a client for your application in the Keycloak Administration Console. [Setup a Open ID Connect Client](http://www.keycloak.org/docs/latest/server_admin/index.html#_clients). In your new realm click on Clients and Create and give your client a name/ID.
 
-![](https://cdn-images-1.medium.com/max/2400/1*lKPpdCLjYu6GHPfKn3MIFw.png)
+![](https://cdn-images-1.medium.com/max/2400/1*lKPpdCLjYu6GHPfKn3MIFw.png?style=centerme)
 
 The adapter supports public, confidential, and bearer-only access type. Which one to choose depends on the use-case scenario. In this case I picked public with openid-connect.
 
-![](https://cdn-images-1.medium.com/max/2400/1*USxH7yuMSYuV6_E7zCXcKg.png)
+![](https://cdn-images-1.medium.com/max/2400/1*USxH7yuMSYuV6_E7zCXcKg.png?style=centerme)
 
 You will need to define a valid redirect URL
 
-![](https://cdn-images-1.medium.com/max/1600/1*EBvShEJuRoPae84DeqX7Yw.png)
+![](https://cdn-images-1.medium.com/max/1600/1*EBvShEJuRoPae84DeqX7Yw.png?style=centerme)
 
 Once the client is created click the Installation tab, select Keycloak OIDC JSON for Format Option, and then click Download.
 
-![](https://cdn-images-1.medium.com/max/2400/1*QnixBP-B0-I0nnsQQeo71A.png)
+![](https://cdn-images-1.medium.com/max/2400/1*QnixBP-B0-I0nnsQQeo71A.png?style=centerme)
 
 The downloaded keycloak.json file should be placed at the root folder of your project. Sample keycloak.json file
 

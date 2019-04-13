@@ -49,6 +49,10 @@ export default {
       border-radius: .3rem;
       padding: 1rem;
     }
+    img[src$="centerme"] {
+      display:block;
+      margin: 0 auto;
+    }
     img {
       max-width: 100%;
     }

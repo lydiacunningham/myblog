@@ -59,7 +59,7 @@ $ ansible-playbook hello_world.yml
 
 This will return a hello world when run as the meta data
 
-![](https://cdn-images-1.medium.com/max/800/1*qwqmhXM2n2VFpu7JbENfaQ.png)
+![](https://cdn-images-1.medium.com/max/800/1*qwqmhXM2n2VFpu7JbENfaQ.png?style=centerme)
 
 
 That is it your hello world module finished.
@@ -130,6 +130,6 @@ $ ansible-playbook version_change.yml
 ```
 And you get the result , as you can see the unchanged_value remains unchanged and , the version_name and version_no are changed
 
-![](https://cdn-images-1.medium.com/max/800/1*xJZOjUG7ULrZYfE09rU7Qw.png)
+![](https://cdn-images-1.medium.com/max/800/1*xJZOjUG7ULrZYfE09rU7Qw.png?style=centerme)
 
 Not needed but as a final step you can add string for documentation and examples at the top of the module. See the following [Git repo](https://github.com/austincunningham/python-ansible.git) for the code for this basic demo.
