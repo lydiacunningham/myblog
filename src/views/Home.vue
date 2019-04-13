@@ -1,30 +1,30 @@
 <template>
   <div class="Home">
     <div class="ui grid">
-      <div class="five wide column"></div>
+      <div class="three wide column"></div>
       
-      <div class="six wide column">
+      <div class="center aligned ten wide column">
         <img class="ui centered small circular image" src="../assets/me.png">
         <br>
         <h1 class="ui center aligned header">Austin Cunningham</h1>
         <h2 class="ui center aligned header">Software Engineer Working at Red Hat</h2>
       </div>
-      <div class="seven wide column"></div>
+      <div class="three wide column"></div>
     </div>
     <div class="ui grid">
-      <div class="seven wide column"></div>
-      <div class="three wide column">
+      <div class="three wide column"></div>
+      <div class="center aligned ten wide column">
         <a href="https://github.com/austincunningham"><i class="big github icon"></i></a>
         <a href="https://twitter.com/auscunningham"><i class="big twitter icon"></i></a>
         <a href="https://www.linkedin.com/in/austin-cunningham-90365729/"><i class="big linkedin icon"></i></a>
         <a href="https://medium.com/@auscunningham"><i class="big medium icon"></i></a>
         <a href="https://austin-cunningham.surge.sh/"><i class="big edit outline icon"></i></a>
       </div>
-      <div class="six wide colum"></div>
+      <div class="three wide colum"></div>
     </div>
     <div class="ui grid">
-      <div class="four wide column"></div>
-      <div class="eight wide column">
+      <div class="three wide column"></div>
+      <div class="ten wide column">
         <div class="sections">
           <div v-for="(section, index) in Object.keys(entries)" :key="index" class="group">
             <br>
@@ -41,7 +41,7 @@
           </div>
         </div>
       </div>
-      <div class="four wide column"></div>
+      <div class="three wide column"></div>
     </div>
   </div>
 </template>
