@@ -3,17 +3,29 @@
     "2017":[
         {
             "id":"themekeycloak",
-            "date": "2018",
+            "date": "May 31, 2017",
             "title": "Create a custome theme for Keycloak",
             "description": "How to guide on how to change the Keycloak theme for a mobile application"
+        },
+        {
+            "id":"keycloakexpress",
+            "date": "Jun 30, 2017",
+            "title": "Keycloak and Express",
+            "description": "Guide on how to setup Keycloak with Express" 
         }
     ],
     "2018":[
         {
+            "id": "ansiblepython",
+            "date": "Aug 11, 2018",
+            "title": "Write an Ansible module with Python",
+            "description": "Guide on how to write an Ansible module with Python"
+        },
+        {
             "id":"another",
             "date": "2018",
-            "title": "Create a custome theme for Keycloak",
-            "description": "How to guide on how to change the Keycloak theme for a mobile application"
+            "title": "another",
+            "description": "another"
         }
     ]
 }
