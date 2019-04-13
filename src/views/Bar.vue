@@ -1,12 +1,15 @@
 <template>
 <div class="bar">
     <div class="ui grid">
-      <div class="seven wide column"></div>
-      <div class="two wide column">
-        <div class="ui compact menu">
-          <a class="item"><router-link to="/"> Home Page <i class="home icon"></i></router-link> </a>
-        </div>
+      <div class="six wide column"></div>
+      <div class="four wide column">
+        <router-link to="/">
+          <button class="ui fluid inverted green button">
+            <a class="item">Home <i class="home icon"></i> </a>
+          </button>
+        </router-link>
       </div>
+      <div class="six wide column"></div>
     </div>
 </div>
 </template>
