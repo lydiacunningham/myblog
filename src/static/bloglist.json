@@ -13,7 +13,7 @@
             "date": "Jun 11, 2018",
             "title": "Hosting static web sites on Openshift",
             "description": "Guide on how to host a static site on Openshift"
-        }
+        },
         {
             "id":"another",
             "date": "2018",
