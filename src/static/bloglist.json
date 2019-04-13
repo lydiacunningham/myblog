@@ -25,6 +25,12 @@
             "date": "Apr 10, 2018",
             "title": "Debug your Openshift Node.js App locally in Visiual Studio Code",
             "description": "How to setup your debugger in VS code to debug a Node app on Openshift"
+        }, 
+        {
+            "id": "hotcodepush",
+            "date": "May 29, 2018",
+            "title": "Hot code pushes to Openshift from a Node app",
+            "description": "How to push changes to a running pod on Openshift"
         }
     ],
     "2017":[

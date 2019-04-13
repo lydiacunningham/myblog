@@ -23,8 +23,8 @@
       <div class="three wide colum"></div>
     </div>
     <div class="ui grid">
-      <div class="three wide column"></div>
-      <div class="ten wide column">
+      <div class="four wide column"></div>
+      <div class="eight wide column">
         <div class="sections">
           <div v-for="(section, index) in Object.keys(entries)" :key="index" class="group">
             <br>
@@ -41,7 +41,7 @@
           </div>
         </div>
       </div>
-      <div class="three wide column"></div>
+      <div class="four wide column"></div>
     </div>
   </div>
 </template>
