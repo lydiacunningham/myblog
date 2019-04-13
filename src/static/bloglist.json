@@ -19,9 +19,21 @@
             "date": "Jun 16, 2018",
             "title": "Openshift Node and Keycloak",
             "description": "How guide to depoly a Node app to Openshift using Keycloak for authentication"
+        },
+        {
+            "id": "vscodenodeopenshift",
+            "date": "Apr 10, 2018",
+            "title": "Debug your Openshift Node.js App locally in Visiual Studio Code",
+            "description": "How to setup your debugger in VS code to debug a Node app on Openshift"
         }
     ],
     "2017":[
+        {
+            "id":"nodeopenshift",
+            "date": "Oct 13, 2017",
+            "title": "Node and Openshift",
+            "description":"Guide on how to deploy a Node app on Openshift"
+        },
         {
             "id":"themekeycloak",
             "date": "May 31, 2017",
@@ -33,12 +45,7 @@
             "date": "Jun 30, 2017",
             "title": "Keycloak and Express",
             "description": "Guide on how to setup Keycloak with Express" 
-        },
-        {
-            "id":"nodeopenshift",
-            "date": "Oct 13, 2017",
-            "title": "Node and Openshift",
-            "description":"Guide on how to deploy a Node app on Openshift"
         }
+
     ]
 }
