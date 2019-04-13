@@ -1,8 +1,7 @@
 # Theme for Raincatcher for Keycloak
 
-### Final mobile theme
 
-![raincatcher theme](https://cdn-images-1.medium.com/max/800/0*lMzC1bK4bQulI6GB.)
+![raincatcher theme](https://cdn-images-1.medium.com/max/800/0*lMzC1bK4bQulI6GB.?style=centerme)
 
 
 ## Usage
@@ -13,7 +12,7 @@ this theme
 To select the theme you need to login to your keycloak admin console. Go to
 Realms and themes and select from dropdown.
 
-![keycloak themes 2017-05-30 12-08-02.png](https://cdn-images-1.medium.com/max/1000/0*49oKObDvfQyfw5WH.)
+![keycloak themes 2017-05-30 12-08-02.png](https://cdn-images-1.medium.com/max/1000/0*49oKObDvfQyfw5WH.?style=centerme)
 
 ## Configure your own Theme
 
