@@ -4,7 +4,7 @@
       <div class="six wide column"></div>
       <div class="four wide column">
         <router-link to="/">
-          <button class="ui fluid inverted green button">
+          <button class="ui positive basic fluid button">
             <a class="item">Home <i class="home icon"></i> </a>
           </button>
         </router-link>
