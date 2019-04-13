@@ -1,1 +1,26 @@
-<!DOCTYPE html><html lang=en><head><meta charset=utf-8><meta http-equiv=X-UA-Compatible content="IE=edge"><meta name=viewport content="width=device-width,initial-scale=1"><link rel=stylesheet type=text/css href=https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css><script src=https://code.jquery.com/jquery-3.1.1.min.js integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin=anonymous></script><script src=https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.js></script><link rel=icon href=/favicon.ico><title>myblog</title><link href=/css/chunk-c0a8d7cc.3cc92c7f.css rel=prefetch><link href=/js/chunk-2d0ae975.ec1143cb.js rel=prefetch><link href=/js/chunk-2d0bdd67.0a3903a0.js rel=prefetch><link href=/js/chunk-2d0c55a3.322074ad.js rel=prefetch><link href=/js/chunk-2d0d334f.d2c6a093.js rel=prefetch><link href=/js/chunk-2d0e8c11.fc31ccad.js rel=prefetch><link href=/js/chunk-c0a8d7cc.dbb2028f.js rel=prefetch><link href=/css/app.01ca0564.css rel=preload as=style><link href=/js/app.d1eda81a.js rel=preload as=script><link href=/js/chunk-vendors.81bbd0b8.js rel=preload as=script><link href=/css/app.01ca0564.css rel=stylesheet></head><body><noscript><strong>We're sorry but myblog doesn't work properly without JavaScript enabled. Please enable it to continue.</strong></noscript><div id=app></div><script src=/js/chunk-vendors.81bbd0b8.js></script><script src=/js/app.d1eda81a.js></script></body></html>
+Html Webpack Plugin:
+<pre>
+  Error: Parse Error: <meta name="description" content="Tech blogging site, mostly how to guides and software dev  elopment"
+    <link href="/css/chunk-c0a8d7cc.3cc92c7f.css" rel="prefetch"><link href="/js/chunk-2d0ae975.ec1143cb.js" rel=  "prefetch"><link href="/js/chunk-2d0bdd67.0a3903a0.js" rel="prefetch"><link href="/js/chunk-2d0c55a3.322074ad.j  s" rel="prefetch"><link href="/js/chunk-2d0d334f.d2c6a093.js" rel="prefetch"><link href="/js/chunk-2d0e8c11.fc3  1ccad.js" rel="prefetch"><link href="/js/chunk-c0a8d7cc.dbb2028f.js" rel="prefetch"><link href="/css/app.01ca05  64.css" rel="preload" as="style"><link href="/js/app.42394b47.js" rel="preload" as="script"><link href="/js/chu  nk-vendors.81bbd0b8.js" rel="preload" as="script"><link href="/css/app.01ca0564.css" rel="stylesheet"></head>
+    <body>
+      <noscript>
+        <strong>We're sorry but myblog doesn't work properly without JavaScript enabled. Please enable it to cont  inue.</strong>
+      </noscript>
+      <div id="app"></div>
+      <!-- built files will be auto injected -->
+    <script type="text/javascript" src="/js/chunk-vendors.81bbd0b8.js"></script><script type="text/javascript" sr  c="/js/app.42394b47.js"></script></body>
+  </html>
+  
+  - htmlparser.js:240 new HTMLParser
+    [myblog]/[html-minifier]/src/htmlparser.js:240:13
+  
+  - htmlminifier.js:966 minify
+    [myblog]/[html-minifier]/src/htmlminifier.js:966:3
+  
+  - htmlminifier.js:1326 exports.minify
+    [myblog]/[html-minifier]/src/htmlminifier.js:1326:16
+  
+  - index.js:316 Promise.resolve.then.then.html
+    [myblog]/[html-webpack-plugin]/index.js:316:18
+  
+</pre>
