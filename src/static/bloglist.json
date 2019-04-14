@@ -5,6 +5,12 @@
             "date": "Feb 12, 2019",
             "title": "Enforcing Git Commit Message Style",
             "description": "How to guide on how to enforce a commit message style"
+        },
+        {
+            "id": "commandlinenode",
+            "date": "Mar 27, 2019",
+            "title": "Create Node Command line App",
+            "description": "Guide on how to create an Node command line application"
         }
     ],
     "2018":[
