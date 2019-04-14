@@ -82,6 +82,12 @@
             "date": "Oct 13, 2017",
             "title": "Node and Openshift",
             "description":"Guide on how to deploy a Node app on Openshift"
+        },
+        {
+            "id": "raincatcher",
+            "date": "Oct 27, 2017",
+            "title": "Create a custom workflow for RainCatcher",
+            "description": "How to create a custome workflow for RainCatcher"
         }
     ]
 }
