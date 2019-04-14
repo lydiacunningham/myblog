@@ -55,6 +55,12 @@
             "date": "Nov 12, 2018",
             "title": "Switching between binaries",
             "description": "Bash scripting to switch between binaries"
+        },
+        {
+            "id": "gitconflicts",
+            "date": "Apr 5, 2018",
+            "title": "Git Confilicts whats the problem ?",
+            "description": "The basics on stating with git and resolving conflicts"
         }
     ],
     "2017":[
