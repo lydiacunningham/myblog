@@ -35,8 +35,9 @@ This is like Echo in the command prompt
 
 At this point you think great but what can I do. Node has some inbuilt components that are very useful for command line applications.
 
-> fs
-> child process
+> [fs](https://nodejs.org/api/fs.html)
+
+> [child process](https://nodejs.org/api/child_process.html)
 
 A simple example and use case
 
