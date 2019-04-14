@@ -7,36 +7,25 @@
             "description": "How to guide on how to enforce a commit message style"
         },
         {
-            "id": "commandlinenode",
-            "date": "Mar 27, 2019",
-            "title": "Create Node Command line App",
-            "description": "Guide on how to create an Node command line application"
-        },
-        {
             "id": "ionicaerogearopenshift",
             "date": "Feb 4, 2019",
             "title": "Ionic and the Aerogear Mobile Developer Console on Openshift",
             "description": "Guid on how to setup and used the Aerogear Mobile Developer Console to add services to an Ionic application"
+        },
+        {
+            "id": "commandlinenode",
+            "date": "Mar 27, 2019",
+            "title": "Create Node Command line App",
+            "description": "Guide on how to create an Node command line application"
         }
+
     ],
     "2018":[
         {
-            "id": "ansiblepython",
-            "date": "Aug 11, 2018",
-            "title": "Write an Ansible module with Python",
-            "description": "Guide on how to write an Ansible module with Python"
-        },
-        {
-            "id": "hostingopenshift",
-            "date": "Jun 11, 2018",
-            "title": "Hosting static web sites on Openshift",
-            "description": "Guide on how to host a static site on Openshift"
-        },
-        {
-            "id":"openshiftnodekeycloak",
-            "date": "Jun 16, 2018",
-            "title": "Openshift Node and Keycloak",
-            "description": "How guide to depoly a Node app to Openshift using Keycloak for authentication"
+            "id": "gitconflicts",
+            "date": "Apr 5, 2018",
+            "title": "Git Confilicts whats the problem ?",
+            "description": "The basics on stating with git and resolving conflicts"
         },
         {
             "id": "vscodenodeopenshift",
@@ -51,25 +40,31 @@
             "description": "How to push changes to a running pod on Openshift"
         },
         {
+            "id": "hostingopenshift",
+            "date": "Jun 11, 2018",
+            "title": "Hosting static web sites on Openshift",
+            "description": "Guide on how to host a static site on Openshift"
+        },
+        {
+            "id":"openshiftnodekeycloak",
+            "date": "Jun 16, 2018",
+            "title": "Openshift Node and Keycloak",
+            "description": "How guide to depoly a Node app to Openshift using Keycloak for authentication"
+        },
+        {
+            "id": "ansiblepython",
+            "date": "Aug 11, 2018",
+            "title": "Write an Ansible module with Python",
+            "description": "Guide on how to write an Ansible module with Python"
+        },
+        {
             "id": "switchingbetween",
             "date": "Nov 12, 2018",
             "title": "Switching between binaries",
             "description": "Bash scripting to switch between binaries"
-        },
-        {
-            "id": "gitconflicts",
-            "date": "Apr 5, 2018",
-            "title": "Git Confilicts whats the problem ?",
-            "description": "The basics on stating with git and resolving conflicts"
         }
     ],
     "2017":[
-        {
-            "id":"nodeopenshift",
-            "date": "Oct 13, 2017",
-            "title": "Node and Openshift",
-            "description":"Guide on how to deploy a Node app on Openshift"
-        },
         {
             "id":"themekeycloak",
             "date": "May 31, 2017",
@@ -81,7 +76,12 @@
             "date": "Jun 30, 2017",
             "title": "Keycloak and Express",
             "description": "Guide on how to setup Keycloak with Express" 
+        },
+        {
+            "id":"nodeopenshift",
+            "date": "Oct 13, 2017",
+            "title": "Node and Openshift",
+            "description":"Guide on how to deploy a Node app on Openshift"
         }
-
     ]
 }
