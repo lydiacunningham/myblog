@@ -16,6 +16,15 @@
       gtag('js', new Date());
       gtag('config', 'UA-138297422-1');
     </script>
+    <script>
+      (function(){
+          var redirect = sessionStorage.redirect;
+          delete sessionStorage.redirect;
+          if (redirect && redirect != location.href) {
+              history.replaceState(null, null, redirect);
+          }
+      })();  
+    </script>
 
     <link rel="icon" href="<%= BASE_URL %>favicon.ico">
     <title>My Blog - Tech blogging and how to guides</title>
