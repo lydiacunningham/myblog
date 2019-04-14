@@ -49,6 +49,12 @@
             "date": "May 29, 2018",
             "title": "Hot code pushes to Openshift from a Node app",
             "description": "How to push changes to a running pod on Openshift"
+        },
+        {
+            "id": "switchingbetween",
+            "date": "Nov 12, 2018",
+            "title": "Switching between binaries",
+            "description": "Bash scripting to switch between binaries"
         }
     ],
     "2017":[
