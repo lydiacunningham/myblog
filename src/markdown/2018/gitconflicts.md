@@ -1,5 +1,4 @@
 # GIT conflicts what’s the problem ?
-Apr 5, 2018
 
 ![](https://cdn-images-1.medium.com/max/800/1*hJ2sU-w4aGEzPm8kvnzjPw.jpeg?style=centerme)
 

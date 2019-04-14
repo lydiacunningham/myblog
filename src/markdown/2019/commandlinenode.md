@@ -1,6 +1,5 @@
 # Create Node Command line App
 
-Mar 27
 
 ![](https://cdn-images-1.medium.com/max/800/1*Yhe1R94CIotr2se7Wf6TQQ.png?style=centerme)
 

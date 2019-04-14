@@ -1,7 +1,5 @@
 # Switching between binaries
 
-Nov 12, 2018
-
 ![](https://cdn-images-1.medium.com/max/800/1*TYr9ZaIGbFeWjARZCqWm7A.png?style=centerme)
 
 I am constantly changing my binaries for installation prerequisites and testing. I used to spend a bit of time change paths or updating **.bashrc** . This is a quick example of a bit of bash I used to reduce the manual steps involve around changing the oc binary(Openshift command line binary). Currently I have four versions of the oc binary on my PC 3.7, 3.9, 3.10 and 3.11, I put each binary in its own directory in **/opt/openshift**

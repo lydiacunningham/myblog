@@ -1,13 +1,13 @@
 # Ionic and the Aerogear Mobile Developer Console on Openshift
 
-Feb 4
-
 **Note**: I have tested against the latest release and some of these instructions no longer work as expected, As the MDC is in development will revise article in the future.
 
 I wanted to develop an Ionic mobile application and use the services provide by the Aerogear MDC on Openshift. The getting started guides
 
 > [Ionic](https://ionicframework.com/getting-started#cli)
+
 > [Openshift(Minishift)](https://www.okd.io/minishift/)
+
 > [Aerogear Mobile Developer Console](https://docs.aerogear.org/aerogear/latest/getting-started.html)
 
 ## Setting up the Aerogear Mobile Developer Console
