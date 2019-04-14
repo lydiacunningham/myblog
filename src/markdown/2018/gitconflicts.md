@@ -26,7 +26,9 @@ After adding the remotes you can check your remotes
 ```bash
 git remote --v
 >origin  git@github.com:yourUsername/RepoName.git (fetch)   
->origin  git@github.com:yourUsername/RepoName.git (push)              >upstream git@github.com:upstreamUsername/RepoName.git (fetch)   >upstream git@github.com:upstreamUsername/RepoName.git (push)
+>origin  git@github.com:yourUsername/RepoName.git (push)              
+>upstream git@github.com:upstreamUsername/RepoName.git (fetch)   
+>upstream git@github.com:upstreamUsername/RepoName.git (push)
 ```
 
 So your ready to start working on some codebase first thing to check is if you are in sync with upstream, you can then create a branch to work on. Its is worth your while investing in a command line tooling that show your branch name in your prompt e.g. [ohmyzsh](https://github.com/robbyrussell/oh-my-zsh)

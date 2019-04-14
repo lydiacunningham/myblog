@@ -1,7 +1,5 @@
 # Create a custom workflow for RainCatcher
 
-Oct 27, 2017
-
 ![](https://cdn-images-1.medium.com/max/800/1*LQ4o1lvQqwMFGbPiCbeHXw.png?style=centerme)
 
 ## Background
