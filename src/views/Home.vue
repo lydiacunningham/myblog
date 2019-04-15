@@ -28,16 +28,22 @@
         <div class="sections">
           <div v-for="(section, index) in Object.keys(entries)" :key="index" class="group">
             <br>
-            <h2 class="center">{{section}}</h2>
-            <div class="section" v-for="entry in entries[section]" :key="entry.id">
-              <div class="entry" v-on:mouseover="onHover=true" v-on:mouseleave="onHover=false">
+            <div class="ui accordion">
+              <div class="active title">
+                <h2 class="center"><i class="dropdown icon"></i> {{section}} Blogs </h2>
+              </div>
+              <div class="active content">
+                <div class="section" v-for="entry in entries[section]" :key="entry.id">
+                  <div class="entry" v-on:mouseover="onHover=true" v-on:mouseleave="onHover=false">
 
-                <h3 @click="$router.push({name: entry.id})">
+                    <h3 @click="$router.push({name: entry.id})">
 
-                   <i class="linkify icon"></i> {{entry.title}}
-                  <span class="subtitle">....({{entry.date}})</span>
-                </h3>
-                <p>{{entry.description}}</p>
+                      <i class="linkify icon"></i> {{entry.title}}
+                      <span class="subtitle">....({{entry.date}})</span>
+                    </h3>
+                    <p>{{entry.description}}</p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
