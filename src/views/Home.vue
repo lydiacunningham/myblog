@@ -30,8 +30,10 @@
             <br>
             <h2 class="center">{{section}}</h2>
             <div class="section" v-for="entry in entries[section]" :key="entry.id">
-              <div class="entry">
+              <div class="entry" v-on:mouseover="onHover=true" v-on:mouseleave="onHover=false">
+
                 <h3 @click="$router.push({name: entry.id})">
+
                    <i class="linkify icon"></i> {{entry.title}}
                   <span class="subtitle">....({{entry.date}})</span>
                 </h3>
@@ -55,8 +57,14 @@ export default {
     entries() {
       return BLOGENTRIES
     }
+  },
+  methods: {
+    mouseOver: function(){
+        this.active = !this.active;   
+    }
   }
 }
+
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
@@ -75,5 +83,9 @@ li {
 }
 a {
   color: #42b983;
+}
+.entry
+{
+    cursor: pointer;
 }
 </style>

@@ -15,7 +15,9 @@ export default {
   name: 'app',
   components:{
     bar
-  }
+  },
+  onHover: false
+
 }
 
 
