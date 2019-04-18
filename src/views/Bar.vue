@@ -3,11 +3,11 @@
     <div class="ui grid">
       <div class="six wide column"></div>
       <div class="four wide column">
-        <router-link to="/">
+        <a href="https://austincunningham.ddns.net">
           <button class="ui positive basic fluid button">
             <a class="item">Home <i class="home icon"></i> </a>
           </button>
-        </router-link>
+        </a>
       </div>
       <div class="six wide column"></div>
     </div>
@@ -18,6 +18,7 @@
 export default {
   name: 'Bar'
 }
+
 </script>
 
 <style>
