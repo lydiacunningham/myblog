@@ -1,7 +1,9 @@
 <template>
   <div id="app">
-    <bar/>
-    <router-view></router-view>
+    <div class="ui padded segment">
+      <bar/>
+      <router-view></router-view>
+    </div>
   </div>
 </template>
 
