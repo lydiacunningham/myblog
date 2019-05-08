@@ -32,6 +32,15 @@
     (function (){
       $(document).ready(function(){
         $('.ui.accordion').accordion(); 
+        $('.basic.test.modal')
+          .modal('setting', 'closable', false)
+          .modal('show');
+        $('.message .close')
+          .on('click', function() {
+            $(this)
+              .closest('.message')
+              .transition('fade');
+          });
       });
     })();
   </script>

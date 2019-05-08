@@ -1,6 +1,18 @@
 <template>
   <div id="app">
     <div class="ui padded segment">
+        <div class="ui floating success message">
+          <i class="close icon"></i>
+          <div class="header">
+            This site uses cookies
+          </div>
+          <p>This site uses cookies from Google to deliver its services and to analyse traffic. 
+            Your IP address and user agent are shared with Google, 
+            together with performance and security metrics, to ensure quality of service, 
+            generate usage statistics and to detect and address abuse.
+            <a href="https://policies.google.com/technologies/cookies"><strong>Learn More</strong></a>
+          </p>
+        </div>
       <bar/>
       <router-view></router-view>
     </div>
