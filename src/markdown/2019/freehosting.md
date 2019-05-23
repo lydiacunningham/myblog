@@ -63,7 +63,7 @@ But most people don't have public IP so may have to look at a dynamic dns provid
 
 e.g. [noip.com](https://www.noip.com/support/knowledgebase/how-to-configure-ddns-in-router/) which give you an option to setup ddns on your router or have software running on your pc that that will updates the dns when the ip address changes. 
 
-I learned a lot doing this and even got around to setting up my own dovecot email server. It wouldn't be my goto for hosting now, but as a learning exersize it's worth a try. Pain point loss of power or ISP outage and your site is offline. Same if your hardware go bang. 
+I learned a lot doing this and even got around to setting up my own dovecot email server. It wouldn't be my goto for hosting now, but as a learning exersize it's worth a try. Pain point loss of power or ISP outage and your site is offline. Same if your hardware goes bang. 
 
 
 ## Cloud Hosting
