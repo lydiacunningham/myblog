@@ -1,7 +1,7 @@
 # Free Web Site Hosting
 ![](https://cdn-images-1.medium.com/max/800/1*vd3vrus3rzuFsQZhOkNa-w.jpeg)
 
-There are many options for hosting and this is not a exaustive list just some of the options I have tried. 
+There are many options for hosting and this is not a exhaustive list just some of the options I have tried. 
 
 ## Surge.sh 
 
@@ -63,7 +63,7 @@ But most people don't have public IP so may have to look at a dynamic dns provid
 
 e.g. [noip.com](https://www.noip.com/support/knowledgebase/how-to-configure-ddns-in-router/) which give you an option to setup ddns on your router or have software running on your pc that that will updates the dns when the ip address changes. 
 
-I learned a lot doing this and even got around to setting up my own dovecot email server. It wouldn't be my goto for hosting now, but as a learning exersize it's worth a try. Pain point loss of power or ISP outage and your site is offline. Same if your hardware goes bang. 
+I learned a lot doing this and even got around to setting up my own dovecot email server. It wouldn't be my goto for hosting now, but as a learning exercise it's worth a try. Pain point loss of power or ISP outage and your site is offline. Same if your hardware goes bang. 
 
 
 ## Cloud Hosting
