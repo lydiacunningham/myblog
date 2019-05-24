@@ -52,7 +52,7 @@ Haven't used since college but the free tier works well. I do remember that the 
 
 ![](https://thepracticaldev.s3.amazonaws.com/i/juvetcvfipn4m73tdcx6.png)
 
-Glitch from the nice people that brought you stackoverflow. Its a hosting platform for node.js apps as with heroku you would need to set up an express app to serve the static content. Only issue with this option is you don't get to decide your domain name and I haven't as yet figure a way around this. 
+[Glitch](https://glitch.com) from the nice people that brought you stackoverflow. Its a hosting platform for node.js apps as with heroku you would need to set up an express app to serve the static content. Only issue with this option is you don't get to decide your domain name and I haven't as yet figure a way around this. 
 
 ## Self Hosting on a Local PC
 
