@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <div class="ui padded segment">
-        <div class="ui floating success message">
+        <div class="ui floating success message" id=cookiemessage>
           <i class="close icon"></i>
           <div class="header">
             This site uses cookies
@@ -46,6 +46,10 @@ export default {
   color: #2c3e50;
   /* margin-top: 60px; */
   
+}
+#cookiemessage {
+  max-width: 60vw;
+  margin: 2rem auto;
 }
 
 </style>

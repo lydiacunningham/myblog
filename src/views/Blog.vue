@@ -15,7 +15,7 @@ export default {
 
 <style lang="scss" scoped>
 .blog {
-  max-width: 75vw;
+  max-width: 60vw;
   margin: 2rem auto;
   .back {
     background-color: #42b883;

@@ -44,7 +44,7 @@ I have done this on many projects weather its just to jazz up a [doc's page](htt
 ## Heroku
 ![](https://cdn-images-1.medium.com/max/800/1*wBWMeBZBLbITHT0EcsZfyA.png)
 
-Heroku is an SASS offering for hosting apps. You can deploy a [node app on heroku](https://devcenter.heroku.com/articles/deploying-nodejs). Setting a up an Express.js app to serve a directory see the [first section here](https://austincunningham.ddns.net/2018/hostingopenshift) for how to steps. 
+Heroku is an PAAS offering for hosting apps. You can deploy a [node app on heroku](https://devcenter.heroku.com/articles/deploying-nodejs). Setting a up an Express.js app to serve a directory see the [first section here](https://austincunningham.ddns.net/2018/hostingopenshift) for how to steps. 
 
 Haven't used since college but the free tier works well. I do remember that the config could be a pain point at times.
 
