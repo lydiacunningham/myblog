@@ -26,7 +26,7 @@
         },
         {
             "id": "operatorvscode",
-            "date": "Set 2, 2019",
+            "date": "Sept 2, 2019",
             "title": "Debug Kubernetes Operator-sdk Locally Using Vscode",
             "description": "How to Debug Kubernetes Operator-sdk Locally Using Vscode"
         }
