@@ -24,11 +24,11 @@ What this means that instead of having to build a container image and push it to
 
 I use Vscode so how do I debug using `operator-sdk up local`? 
 
-Delve is a debug tool for golang, it can be downloaded here https://github.com/go-delve/delve/tree/master/Documentation/installation or by just using go
+Delve is a debug tool for golang, it can be downloaded [here](https://github.com/go-delve/delve/tree/master/Documentation/installation) or by just using go
 ```bash
 go get -u github.com/go-delve/delve/cmd/dlv 
 ```
-Delve is installed by default by this Vscode Go plugin https://marketplace.visualstudio.com/items?itemName=ms-vscode.Go
+Delve is used by default by this [Vscode Go plugin](https://marketplace.visualstudio.com/items?itemName=ms-vscode.Go)
 
 You need to run delve with the command line switch `--enable-delve` on the `up local` command
 e.g. The operator I am working on is called `integreatly-operator` so the commands to run it are as follows
