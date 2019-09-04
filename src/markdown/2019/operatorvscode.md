@@ -9,7 +9,7 @@ Kubernetes Operator are a way of leveraging the Kubernetties API to create your 
 
 The project I am working on [Integreatly](https://github.com/integr8ly/integreatly-operator) is using the [Operator-sdk](https://github.com/operator-framework/operator-sdk) framework to build operators, this takes some of the complexity out of building a Kubernetes Operators. 
 
-I won't go into the basic of installing a operator that's documented in the Operator-sdk [docs](https://github.com/operator-framework/operator-sdk#create-and-deploy-an-app-operator).
+I won't go into the installing of an operator that's documented in the Operator-sdk [docs](https://github.com/operator-framework/operator-sdk#create-and-deploy-an-app-operator).
 
 ## Running Locally
 You can run the operator-sdk locally, and point it at the namespace for your operator 
