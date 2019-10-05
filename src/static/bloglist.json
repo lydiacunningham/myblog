@@ -10,7 +10,7 @@
             "id": "ionicaerogearopenshift",
             "date": "Feb 4, 2019",
             "title": "Ionic and the Aerogear Mobile Developer Console on Openshift",
-            "description": "Guid on how to setup and used the Aerogear Mobile Developer Console to add services to an Ionic application"
+            "description": "Guide on how to setup and used the Aerogear Mobile Developer Console to add services to an Ionic application"
         },
         {
             "id": "commandlinenode",
