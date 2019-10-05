@@ -36,8 +36,8 @@
                 <div class="active content">
                   <div class="section" v-for="entry in sort(entries[section])" :key="entry.id">
                     <div class="ui raised segment">
+                      <img class="ui medium centered image" v-bind:src="`/images/${entry.id}.png`">
                       <div class="entry" v-on:mouseover="onHover=true" v-on:mouseleave="onHover=false">
-                        <img class="ui medium centered image" v-bind:src="`/images/${entry.id}.png`">
                         <h3 @click="$router.push({name: entry.id})"> {{entry.image}}
                           
                           <i class="linkify icon"></i> {{entry.title}}
