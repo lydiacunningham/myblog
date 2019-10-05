@@ -26,7 +26,7 @@
       <div class="four wide column"></div>
       <div class="eight wide column">
         <div class="sections">
-          <div v-for="(section, index) in Object.keys(entries)" :key="index" class="group">
+          <div v-for="(section, index) in sort(Object.keys(entries))" :key="index" class="group">
             <br>
             <div class="ui padded segment">
               <div class="ui accordion">
@@ -69,6 +69,9 @@ export default {
   methods: {
     mouseOver: function(){
         this.active = !this.active;   
+    },
+    sort: function(arr) { 
+       return arr.slice().reverse();
     }
   }
 }
