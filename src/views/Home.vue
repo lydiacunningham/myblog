@@ -35,15 +35,19 @@
                 </div>
                 <div class="active content">
                   <div class="section" v-for="entry in entries[section]" :key="entry.id">
-                    <div class="entry" v-on:mouseover="onHover=true" v-on:mouseleave="onHover=false">
-
-                      <h3 @click="$router.push({name: entry.id})">
-
-                        <i class="linkify icon"></i> {{entry.title}}
-                        <span class="subtitle">....({{entry.date}})</span>
-                      </h3>
-                      <p>{{entry.description}}</p>
+                    <div class="ui raised segment">
+                      <div class="entry" v-on:mouseover="onHover=true" v-on:mouseleave="onHover=false">
+                        <img class="ui medium centered image" v-bind:src="`/images/${entry.id}.png`">
+                        <h3 @click="$router.push({name: entry.id})"> {{entry.image}}
+                          
+                          <i class="linkify icon"></i> {{entry.title}}
+                          <span class="subtitle">....({{entry.date}})</span>
+                          
+                        </h3>
+                        <p>{{entry.description}}</p>
+                      </div>
                     </div>
+                    <span></span>
                   </div>
                 </div>
               </div>
