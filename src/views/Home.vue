@@ -34,7 +34,7 @@
                   <h2 class="center"><i class="dropdown icon"></i> {{section}} Blogs </h2>
                 </div>
                 <div class="active content">
-                  <div class="section" v-for="entry in entries[section]" :key="entry.id">
+                  <div class="section" v-for="entry in sort(entries[section])" :key="entry.id">
                     <div class="ui raised segment">
                       <div class="entry" v-on:mouseover="onHover=true" v-on:mouseleave="onHover=false">
                         <img class="ui medium centered image" v-bind:src="`/images/${entry.id}.png`">
